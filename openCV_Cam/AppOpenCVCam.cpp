@@ -20,7 +20,8 @@ using namespace cv;
 int main() {
 VideoCapture stream1(0);   //0 is the id of video device.0 if you have only one camera.
 VideoCapture stream2(1);   //0 is the id of video device.0 if you have only one camera.
-int key = 0;
+int key = 1;
+key = 0;
 int delayTime = 100;
 Mat cameraFrame;
 Mat cameraFrame_Small;

@@ -25,7 +25,8 @@ printf("Return: %d",cam1);
 frame = cvQueryFrame(cam1);
 printf("Frame: %d",frame);
 int key = 0;
-int delayTime = 33;
+int delayTime = 66;
+delayTime = 33;
 //Mat cameraFrame;
 
 
